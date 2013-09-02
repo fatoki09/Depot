@@ -9,10 +9,9 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
-
-group :producution do
-	gem 'pg'
-end
+# group :producution do
+	# gem 'pg'
+# end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -53,7 +52,7 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-
+gem 'stripe'
 
 
 
